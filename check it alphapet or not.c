@@ -1,5 +1,5 @@
 include <stdio.h>
-int main()
+void main()
 {
     char c;
     printf("Enter a character: ");
@@ -10,5 +10,4 @@ int main()
     else
         printf("%c is not an alphabet.",c);
 
-    return 0;
 }
